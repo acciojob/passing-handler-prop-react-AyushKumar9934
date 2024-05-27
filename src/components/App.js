@@ -24,10 +24,10 @@ const colourConfig = [{
 const title = 'Select the gradient and then the Box to change the color';
 
 const App = () => {
-  let [nextBackground, selectNextBackground] = useState({ background: "" })
+  let [nextBackground, selectNextBackground] = useState("")
   const applyColor = (setBackground) => {
     //updateSelectionStyle(nextBackground)
-    setBackground(nextBackground.background);
+    setBackground(nextBackground);
   }
 console.log("the current color is ",nextBackground);
   return (
