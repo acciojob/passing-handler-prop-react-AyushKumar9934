@@ -33,7 +33,7 @@ console.log("the current color is ",nextBackground);
   return (
     <div id="master">
       <h5 className="heading">{title}</h5>
-
+ 
       <div className="row">
         {colourConfig.map((config, index) =><ColourSelector key={config.key} config={config} selectNextBackground={selectNextBackground} />)}
       </div>
